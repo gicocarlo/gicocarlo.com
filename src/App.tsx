@@ -3,7 +3,7 @@ import Footer from './components/Footer/Footer'
 import './App.css'
 
 function App() {
-  const timeStarted = new Date('2021-07-04T14:00:00.000Z').getTime()
+  const timeStarted = new Date('2021-07-05T14:00:00.000Z').getTime()
   const timeNow = new Date().getTime()
   const [timePassed, setTimePassed] = useState(timeNow - timeStarted)
 

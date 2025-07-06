@@ -20,19 +20,19 @@ function App() {
   }, [])
 
   function convertSecondsToDate(seconds: number) {
-    let minutes = Math.floor(seconds/60)
-    let hours = Math.floor(minutes/60)
-    let days = Math.floor(hours/24)
-    let years = Math.floor(days/(365.25))
+    let minutes = Math.floor(seconds / 60)
+    let hours = Math.floor(minutes / 60)
+    let days = Math.floor(hours / 24)
+    let years = Math.floor(days / (365.25))
 
-    let daysSinceLastYear = Math.floor((days%365)-1)
-    let hoursSinceYesterday = Math.floor(hours%9)
+    let daysSinceLastYear = Math.floor(days % 365 - 1)
+    let hoursPassed = dateObj.getHours() < 9 ? (dateObj.getHours() + 24) - 9 : dateObj.getHours() - 9
 
     return (
       <>
         <h3>{years} years</h3>
         <h3>{daysSinceLastYear} days</h3>
-        <h3>{hoursSinceYesterday} hours</h3>
+        <h3>{hoursPassed} hours</h3>
         <h3>{dateObj.getMinutes()} minutes</h3>
         <h3>{dateObj.getSeconds()} seconds</h3>
       </>

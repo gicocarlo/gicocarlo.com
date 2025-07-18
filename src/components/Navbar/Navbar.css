@@ -1,0 +1,6 @@
+.navbar{
+  margin: 1rem;
+  font-size: medium;
+  display: flex;
+  justify-content: space-between;
+}

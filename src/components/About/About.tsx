@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-        <h1>Inside about page</h1>
+        <h1>🚧 About Page Under Construction. Please come back soon. 🚧</h1>
     </>
   )
 }

@@ -1,7 +1,20 @@
+import './About.css'
+
 function About() {
   return (
     <>
-        <h1>🚧 About Page Under Construction. Please come back soon. 🚧</h1>
+      <h1>👋🏻</h1>
+      <ul>
+        <li>
+          Based in the SF Bay Area 🌉
+        </li>
+        <li>
+          I love computers 👨‍💻
+        </li>
+        <li>
+          Always playing Counter Strike 🔫
+        </li>
+      </ul>
     </>
   )
 }

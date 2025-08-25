@@ -39,13 +39,13 @@ function App() {
   }
 
   return (
-    <>
+    <div className='home'>
       <h1>Gico Carlo Evangelista</h1>
       <h2>
         Software Engineer for over:
       </h2>
       {convertSecondsToDate(secondsPassed)}
-    </>
+    </div>
   )
 }
 

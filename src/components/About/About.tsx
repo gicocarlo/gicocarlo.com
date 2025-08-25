@@ -2,7 +2,7 @@ import './About.css'
 
 function About() {
   return (
-    <>
+    <div className='about'>
       <h1>👋🏻</h1>
       <ul>
         <li>
@@ -15,7 +15,7 @@ function About() {
           Always playing Counter Strike 🔫
         </li>
       </ul>
-    </>
+    </div>
   )
 }
 
